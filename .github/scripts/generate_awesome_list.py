@@ -419,8 +419,14 @@ def generate_readme(categorized_repos: Dict[str, List[Dict[str, Any]]], processe
     total_repos = processed_count + cached_count
     cache_percentage = 0 if total_repos == 0 else round((cached_count / total_repos) * 100)
     
-    # Count total repos for reporting
-    total_repo_count = sum(len(repos) for repos in categorized_repos.values())
+    # Get the unique set of repositories
+    unique_repos = set()
+    for repos in categorized_repos.values():
+        for repo in repos:
+            unique_repos.add(repo["name"])
+            
+    # Use the count of unique repositories
+    total_repo_count = len(unique_repos)
     
     readme = f"""# Awesome {org_name} Projects
 
