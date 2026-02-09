@@ -12,8 +12,8 @@
         "language": "Shell",
         "generated_description": "This repository enables C-PAC developers to run full regression tests on Bridges-2 cluster using SLURM job submission scripts.",
         "categories": [
-          "Neuroimaging Tools",
-          "Command Line Tools"
+          "Data Processing",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -23,20 +23,21 @@
       "data": {
         "name": "quick-viz",
         "url": "https://github.com/childmindresearch/quick-viz",
-        "stars": 0,
+        "stars": 2,
         "description": "Short-and-sweet cookie cutter visualization scripts or utilities, intended to lower the barrier for looking at all of our results, all of the time.",
         "topics": [],
         "language": "Python",
         "generated_description": "This repository, \"quick-viz,\" provides short and simple Python visualization scripts to easily generate visualizations for various types of data, such as TSV-stored matrices, Nii-stored 3D brain data, and surface mesh data. The tools are designed to streamline development and testing cycles by offering quick and easy-to-use utilities.",
         "categories": [
-          "Data Visualization",
-          "Python Projects"
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
         ]
       }
     },
     "childmindresearch/flowview": {
-      "readme_hash": "783b675a0eb4e6e5749cb7e91fa417dc",
-      "last_updated": "2025-04-10 20:00:20 UTC",
+      "readme_hash": "77cb217134e732553675f7c70fb66347",
+      "last_updated": "2026-02-09 00:04:09 UTC",
       "data": {
         "name": "flowview",
         "url": "https://github.com/childmindresearch/flowview",
@@ -44,10 +45,10 @@
         "description": "C-PAC workflow viewer",
         "topics": [],
         "language": "Svelte",
-        "generated_description": "FlowView is a Svelte-based viewer for C-PAC workflows.",
+        "generated_description": "FlowView is a Svelte-based C-PAC workflow viewer.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Visualization"
+          "Visualization Tools",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -105,33 +106,30 @@
         "language": "Python",
         "generated_description": "Elbow is a lightweight Python library designed to transform specialized data into common tabular formats for analytics, offering scalability and ease of use. It allows users to extract diverse data into formats like Parquet for downstream analysis.",
         "categories": [
-          "Data Processing Libraries",
-          "Machine Learning"
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     },
     "childmindresearch/bids2table": {
-      "readme_hash": "a42377e0f3207f5e6eece8bc5233d008",
-      "last_updated": "2025-04-10 20:00:26 UTC",
+      "readme_hash": "1935af0a1317ef1473b313b2bfbcb53e",
+      "last_updated": "2026-02-09 00:04:12 UTC",
       "data": {
         "name": "bids2table",
         "url": "https://github.com/childmindresearch/bids2table",
-        "stars": 16,
-        "description": "Efficiently index large-scale BIDS neuroimaging datasets and derivatives",
+        "stars": 21,
+        "description": "Index BIDS datasets fast, locally or in the cloud",
         "topics": [
           "arrow",
           "bids",
-          "data-pipeline",
-          "elt",
-          "etl",
-          "neuroimaging",
-          "parquet"
+          "neuroimaging"
         ],
-        "language": "Jupyter Notebook",
-        "generated_description": "bids2table is a library for efficiently indexing and querying large-scale BIDS neuroimaging datasets and derivatives, leveraging modern data science tools to improve efficiency over PyBIDS.",
+        "language": "Python",
+        "generated_description": "bids2table is a Python tool that efficiently indexes BIDS datasets, allowing users to quickly search and index datasets locally or in the cloud, with support for S3 storage.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
@@ -147,14 +145,14 @@
         "language": "ShaderLab",
         "generated_description": "This repository provides a generic configurable mobile task designed to track objects using ShaderLab.",
         "categories": [
-          "Data Processing Libraries",
-          "Machine Learning"
+          "Data Processing",
+          "Visualization Tools"
         ]
       }
     },
     "childmindresearch/.github": {
       "readme_hash": "",
-      "last_updated": "2025-04-10 20:09:29 UTC",
+      "last_updated": "2026-02-09 00:04:14 UTC",
       "data": {
         "name": ".github",
         "url": "https://github.com/childmindresearch/.github",
@@ -162,9 +160,9 @@
         "description": "",
         "topics": [],
         "language": null,
-        "generated_description": "This repository likely serves as a default location for storing GitHub-specific files like issue templates, pull request templates, and community health files.",
+        "generated_description": "This repository likely serves as a default location for GitHub community health files and templates.",
         "categories": [
-          "GitHub Templates"
+          "GitHub Tools"
         ]
       }
     },
@@ -174,13 +172,14 @@
       "data": {
         "name": "neurothumb",
         "url": "https://github.com/childmindresearch/neurothumb",
-        "stars": 1,
+        "stars": 2,
         "description": "Neuroimaging file thumbnail generator and integration.",
         "topics": [],
         "language": "Rust",
         "generated_description": "neurothumb is a Rust-based repository that serves as a neuroimaging file thumbnail generator and integration tool.",
         "categories": [
-          "Neuroimaging Tools",
+          "Data Processing",
+          "Neuroimaging Utilities",
           "Rust Projects"
         ]
       }
@@ -191,15 +190,15 @@
       "data": {
         "name": "tsconcat",
         "url": "https://github.com/childmindresearch/tsconcat",
-        "stars": 1,
+        "stars": 2,
         "description": "BIDS App and Python library for concatenating MRI time series",
         "topics": [],
         "language": "Python",
         "generated_description": "This repository provides a BIDS App and Python library for concatenating MRI time series, allowing users to combine BOLD time series from multiple datasets, sessions, subjects, or runs into a single file.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Python Projects"
+          "Data Processing",
+          "Python Libraries",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -209,14 +208,14 @@
       "data": {
         "name": "nifti",
         "url": "https://github.com/childmindresearch/nifti",
-        "stars": 0,
+        "stars": 1,
         "description": "NIfTI file reader and writer",
         "topics": [],
         "language": "C++",
         "generated_description": "This repository provides a lightweight NIfTI file reader and writer in C++, utilizing modern zlib for efficient operations.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -232,25 +231,26 @@
         "language": "Python",
         "generated_description": "This repository provides a webapp for translational exploration between humans and macaques, utilizing a Svelte frontend and a Python FastAPI backend.",
         "categories": [
-          "Web Development",
-          "Python Projects"
+          "Web Applications",
+          "Python Libraries",
+          "Data Processing"
         ]
       }
     },
     "childmindresearch/template-python-repository": {
-      "readme_hash": "b515b344504bff5589b2d62a317692ba",
-      "last_updated": "2025-04-10 20:00:36 UTC",
+      "readme_hash": "8808cfca29021cc094d8af75861173fe",
+      "last_updated": "2026-02-09 00:04:19 UTC",
       "data": {
         "name": "template-python-repository",
         "url": "https://github.com/childmindresearch/template-python-repository",
-        "stars": 2,
+        "stars": 4,
         "description": "A template repository for Python projects",
         "topics": [],
         "language": "Python",
-        "generated_description": "This repository serves as a template for Python projects, providing a structured setup process and guidelines for consistent project organization. It includes steps for initialization, code quality checks, and API documentation setup.",
+        "generated_description": "This repository serves as a template for Python projects, providing a structured setup process and guidelines for consistent project organization.",
         "categories": [
-          "Python Projects",
-          "GitHub Templates"
+          "Python Libraries",
+          "GitHub Tools"
         ]
       }
     },
@@ -266,8 +266,8 @@
         "language": "Python",
         "generated_description": "`flowdump` is a NiPype workflow serializer designed for use with `flowview`, allowing users to execute workflows and save pre- and post-execution data to JSON files with ease.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     },
@@ -311,19 +311,19 @@
       }
     },
     "childmindresearch/brainviewer": {
-      "readme_hash": "bbd67fa7280892cab510e982dff565c6",
-      "last_updated": "2025-04-10 20:00:42 UTC",
+      "readme_hash": "ddc87314d23c2228f834512630e6b61e",
+      "last_updated": "2026-02-09 00:04:21 UTC",
       "data": {
         "name": "brainviewer",
         "url": "https://github.com/childmindresearch/brainviewer",
-        "stars": 1,
+        "stars": 2,
         "description": "",
         "topics": [],
         "language": "TypeScript",
-        "generated_description": "BrainViewer is a tool for scientific visualization of 3D mesh data in JavaScript/TypeScript, built on ThreeJS, offering a fast and responsive interface for visualizing 3D meshes in the browser.",
+        "generated_description": "BrainViewer is a tool for scientific visualization of 3D mesh data in JavaScript/TypeScript, built on ThreeJS, providing a fast and responsive interface for visualizing 3D meshes in the browser.",
         "categories": [
-          "Data Visualization",
-          "Web Development"
+          "Visualization Tools",
+          "Web Applications"
         ]
       }
     },
@@ -339,9 +339,9 @@
         "language": "Python",
         "generated_description": "NiftyOne is a platform for bulk visualization of large-scale neuroimaging datasets, utilizing FiftyOne features with popular neuroimaging Python packages.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Python Projects"
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
         ]
       }
     },
@@ -357,8 +357,9 @@
         "language": "Kaitai Struct",
         "generated_description": "BrainParsers provides Kaitai struct grammars for parsing various brain imaging data formats.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
@@ -408,9 +409,9 @@
         "language": "Python",
         "generated_description": "This repository provides a Python tool, `clmunch`, for aggregating and summarizing logs generated by the C-PAC pipeline.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Command Line Tools"
+          "Data Processing",
+          "Python Libraries",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -426,9 +427,9 @@
         "language": "Python",
         "generated_description": "`gen192` is a Python-based 192 C-PAC pipeline generator that offers various pipelines, pipeline steps, connectivity measures, and nuisance regression options for neuroimaging analysis.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Python Projects"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
@@ -444,27 +445,29 @@
         "language": "Svelte",
         "generated_description": "This repository is a demo of the BrainViewer library, allowing users to interact with a brain surface visually and audibly. The brain's zoom and rotation are controlled by the user's microphone input frequencies.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Visualization"
+          "Visualization Tools",
+          "Web Applications",
+          "Neuroimaging Utilities"
         ]
       }
     },
     "childmindresearch/actisleep-tracker": {
-      "readme_hash": "ad7de786e2e7918781408e5158e98b9a",
-      "last_updated": "2025-04-10 20:00:54 UTC",
+      "readme_hash": "c4a8e93e55bc202ab4c13084be082ea8",
+      "last_updated": "2026-02-09 00:04:27 UTC",
       "data": {
         "name": "actisleep-tracker",
         "url": "https://github.com/childmindresearch/actisleep-tracker",
-        "stars": 1,
+        "stars": 2,
         "description": "A webapp for annotating actigraphy data",
         "topics": [
           "actigraphy"
         ],
         "language": "Python",
-        "generated_description": "This repository is a web application designed for annotating actigraphy data, particularly sleep data. It provides functionality for preprocessing data and utilizes the Dash framework for development.",
+        "generated_description": "ActiSleep Tracker is a web application designed for annotating sleep data obtained from actigraphy data processed with the GGIR package. Users can visualize and annotate sleep periods using this tool.",
         "categories": [
-          "Web Development",
-          "Data Processing Libraries"
+          "Web Applications",
+          "Data Processing",
+          "Sleep Data Analysis"
         ]
       }
     },
@@ -474,15 +477,15 @@
       "data": {
         "name": "headjack",
         "url": "https://github.com/childmindresearch/headjack",
-        "stars": 7,
+        "stars": 10,
         "description": "Interactive NIfTI Viewer for the Terminal",
         "topics": [],
         "language": "Rust",
         "generated_description": "`headjack` is an interactive NIfTI image viewer designed for the terminal, offering seamless compatibility with various platforms like remote clusters and containerized environments, making it a valuable tool for researchers and developers.",
         "categories": [
-          "Neuroimaging Tools",
-          "Command Line Tools",
-          "Rust Projects"
+          "Data Processing",
+          "Visualization Tools",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -498,8 +501,8 @@
         "language": "C",
         "generated_description": "The \"unifti\" repository provides minimal header-only NIfTI definitions and utilities in C, capturing NIfTI 1.1 and 2 standard and extension codes, with features like portability, zero heap allocations, and utility functions for NIfTI file handling tasks.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -544,14 +547,13 @@
       "data": {
         "name": "ctk-webapp",
         "url": "https://github.com/childmindresearch/ctk-webapp",
-        "stars": 0,
+        "stars": 1,
         "description": "The webapp for the Clinician Toolkit",
         "topics": [],
         "language": "Svelte",
         "generated_description": "This repository contains the frontend code for the Clinician Toolkit, a SvelteKit application deployed as a Docker container, part of a larger set of Clinician Toolkit repositories.",
         "categories": [
-          "Web Development",
-          "Clinical Toolkit"
+          "Web Applications"
         ]
       }
     },
@@ -567,8 +569,9 @@
         "language": "JavaScript",
         "generated_description": "NeuRosetta provides GPT-4 translations of common operations in various brain imaging frameworks, aiming to facilitate researchers in switching between and learning different frameworks effortlessly.",
         "categories": [
-          "Neuroimaging Tools",
-          "Machine Learning"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
@@ -584,8 +587,8 @@
         "language": "Jupyter Notebook",
         "generated_description": "This repository provides a package for reducing the size of complex survey instruments by identifying and retaining only the most predictive assessment items. It offers a data-driven approach to subsampling surveys like the CBCL based on their ability to predict diagnostic status.",
         "categories": [
-          "Machine Learning",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     },
@@ -681,15 +684,14 @@
       "data": {
         "name": "cloai",
         "url": "https://github.com/childmindresearch/cloai",
-        "stars": 1,
+        "stars": 2,
         "description": "A command line interface for OpenAI's API. ",
         "topics": [],
         "language": "Python",
         "generated_description": "Cloai is a command line interface for OpenAI's API that provides a generic interface to large language models, supporting various prompting techniques across different model providers while maintaining a consistent interface.",
         "categories": [
-          "Python Projects",
-          "Command Line Tools",
-          "Machine Learning"
+          "Python Libraries",
+          "Web Applications"
         ]
       }
     },
@@ -705,27 +707,27 @@
         "language": null,
         "generated_description": "This repository provides a cheat sheet for efficiently using the Bridges2 compute cluster, including environment variable settings, useful commands for job management, Singularity/Apptainer configurations, Anaconda setup, C-PAC job file templates, and various utilities for enhancing workflow efficiency.",
         "categories": [
-          "Neuroimaging Tools",
-          "Command Line Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
     "childmindresearch/wristpy": {
-      "readme_hash": "61952e31022c996f9874ab5878f3f534",
-      "last_updated": "2025-04-10 20:01:17 UTC",
+      "readme_hash": "df23400f0111728b38c6b85714a9fbc5",
+      "last_updated": "2026-02-09 00:04:37 UTC",
       "data": {
         "name": "wristpy",
         "url": "https://github.com/childmindresearch/wristpy",
-        "stars": 8,
-        "description": "",
+        "stars": 15,
+        "description": "A Python package for wrist-worn accelerometer data processing.",
         "topics": [],
         "language": "Python",
-        "generated_description": "`wristpy` is a Python package designed for processing and analyzing wrist-worn accelerometer data, providing tools for loading sensor information, calibrating raw data, calculating physical activity and sleep metrics, detecting non-wear and sleep periods, and accessing other sensor data recorded by the watch.",
+        "generated_description": "`wristpy` is a Python package designed for processing and analyzing wrist-worn accelerometer data. It offers tools for loading sensor information, calibrating raw accelerometer data, calculating physical activity metrics, detecting non-wear and sleep periods, and accessing additional sensor data recorded by the watch.",
         "categories": [
-          "Data Processing Libraries",
-          "Machine Learning",
-          "Clinical Toolkit"
+          "Data Processing",
+          "Python Libraries",
+          "Sleep Data Analysis"
         ]
       }
     },
@@ -741,42 +743,42 @@
         "language": "HTML",
         "generated_description": "This repository contains a presentation on \"Collaborative programming with GitHub\" for the MoBI Retreat 2024, including video, slides, references, and related materials.",
         "categories": [
-          "Web Development",
-          "GitHub Templates"
+          "Web Applications",
+          "GitHub Tools"
         ]
       }
     },
     "childmindresearch/actfast": {
-      "readme_hash": "192065c1ecd76fd544e7cafc5ba631d2",
-      "last_updated": "2025-04-10 20:01:20 UTC",
+      "readme_hash": "7e48d07678cf56319e82bdd92e1161f0",
+      "last_updated": "2026-02-09 00:04:39 UTC",
       "data": {
         "name": "actfast",
         "url": "https://github.com/childmindresearch/actfast",
-        "stars": 0,
+        "stars": 2,
         "description": "Fast actigraphy data reader",
         "topics": [],
         "language": "Rust",
-        "generated_description": "`actfast` is a Python package designed for fast and efficient reading of raw actigraphy data from various devices and manufacturers. It supports multiple formats and devices, providing a lightweight solution for handling large datasets.",
+        "generated_description": "actfast is a fast actigraphy data reader for Python, implemented in Rust. It supports reading data from Actigraph GT3X and GENEActiv devices, with planned support for Axivity CWA format.",
         "categories": [
-          "Data Processing Libraries",
+          "Python Libraries",
+          "Data Processing",
           "Rust Projects"
         ]
       }
     },
     "childmindresearch/cmi-skeleton-themes": {
-      "readme_hash": "41b4f526da964cf0516c42f07590d784",
-      "last_updated": "2025-04-10 20:01:21 UTC",
+      "readme_hash": "d448a2fe19dd23b9311deff2c1d70da7",
+      "last_updated": "2026-02-09 00:04:40 UTC",
       "data": {
         "name": "cmi-skeleton-themes",
         "url": "https://github.com/childmindresearch/cmi-skeleton-themes",
         "stars": 0,
         "description": "A Skeleton theme for Child Mind Institute",
         "topics": [],
-        "language": "Svelte",
-        "generated_description": "This repository provides a Svelte Skeleton theme for the Child Mind Institute, allowing users to easily install and customize the theme for their projects.",
+        "language": "CSS",
+        "generated_description": "This repository provides a CSS Skeleton theme specifically designed for the Child Mind Institute, allowing easy integration into web projects by following simple installation and import instructions.",
         "categories": [
-          "Web Development",
-          "GitHub Templates"
+          "Web Applications"
         ]
       }
     },
@@ -792,8 +794,8 @@
         "language": "Python",
         "generated_description": "`cmi-docx` is a Python library that enhances the functionality of `python-docx` for working with .docx files. It offers features like find and replace, inserting paragraphs, and manipulating styles and formatting within documents.",
         "categories": [
-          "Python Projects",
-          "Data Processing Libraries"
+          "Python Libraries",
+          "Data Processing"
         ]
       }
     },
@@ -809,25 +811,26 @@
         "language": "Python",
         "generated_description": "This repository provides examples of using pre-commit in C-PAC for linting code and making changes in different branches.",
         "categories": [
-          "Python Projects",
-          "Command Line Tools"
+          "Python Libraries",
+          "Data Processing"
         ]
       }
     },
     "childmindresearch/ctk-functions": {
-      "readme_hash": "dd267c8149020fc3cc3bcc667077de78",
-      "last_updated": "2025-04-10 20:01:26 UTC",
+      "readme_hash": "fd3445f67792d3dfd24b98f1a0320401",
+      "last_updated": "2026-02-09 00:04:43 UTC",
       "data": {
         "name": "ctk-functions",
         "url": "https://github.com/childmindresearch/ctk-functions",
-        "stars": 0,
+        "stars": 1,
         "description": "Azure Functions for the Clinician Toolkit",
         "topics": [],
         "language": "Python",
-        "generated_description": "This repository provides Azure Functions for the Clinician Toolkit, offering streamlined project setup and consistent structure for Python projects.",
+        "generated_description": "This repository contains Azure Functions written in Python for the Clinician Toolkit, offering services such as document conversion, intake form processing, grammatical correction, and text generation through a FastAPI backend.",
         "categories": [
-          "Python Projects",
-          "Clinical Toolkit"
+          "Python Libraries",
+          "Web Applications",
+          "Data Processing"
         ]
       }
     },
@@ -861,8 +864,8 @@
         "language": "Python",
         "generated_description": "This repository provides testing functionality for C-PAC nodeblocks.",
         "categories": [
-          "Neuroimaging Tools",
-          "Python Projects"
+          "Python Libraries",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -878,14 +881,14 @@
         "language": "Python",
         "generated_description": "This repository provides a Python tool, `clplot`, for plotting CPAC/Nipype callback logs to visualize a timeline of pipeline events.",
         "categories": [
-          "Data Visualization",
-          "Python Projects"
+          "Visualization Tools",
+          "Python Libraries"
         ]
       }
     },
     "childmindresearch/ctk-markdown-to-sql": {
-      "readme_hash": "4579097af5557ef0e58119b7b6006058",
-      "last_updated": "2025-04-10 20:01:31 UTC",
+      "readme_hash": "827ef19e95a1977dc83e16f813c06a80",
+      "last_updated": "2026-02-09 00:04:47 UTC",
       "data": {
         "name": "ctk-markdown-to-sql",
         "url": "https://github.com/childmindresearch/ctk-markdown-to-sql",
@@ -895,7 +898,7 @@
         "language": "Rust",
         "generated_description": "This repository provides a Rust tool for converting hierarchical markdown documents into SQL insertion queries. It parses markdown files into a tree structure and generates SQL commands to insert the parsed data into a database.",
         "categories": [
-          "Data Processing Libraries",
+          "Data Processing",
           "Rust Projects"
         ]
       }
@@ -929,9 +932,8 @@
         "language": "Python",
         "generated_description": "This repository provides a template for Python projects, offering streamlined project setup and a consistent structure. It includes features such as setting up pre-commit hooks, code quality assurance, and API documentation generation.",
         "categories": [
-          "Python Projects",
-          "GitHub Templates",
-          "Command Line Tools"
+          "Python Libraries",
+          "GitHub Tools"
         ]
       }
     },
@@ -947,9 +949,8 @@
         "language": "Shell",
         "generated_description": "This repository provides Docker builds for Loris, offering different container images with varying dependencies such as Loris, Loris-MRI, and MINC Toolkit, along with instructions for building and configuring the containers efficiently.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Command Line Tools"
+          "Data Processing",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -965,8 +966,8 @@
         "language": "Python",
         "generated_description": "This repository parses MindLogger exports in Python using the Bidsi library.",
         "categories": [
-          "Data Processing Libraries",
-          "Python Projects"
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     },
@@ -998,8 +999,8 @@
         "language": "Python",
         "generated_description": "Bidsi is a Python library designed to assist in converting various data sources to BIDS format by providing classes and utilities for building and writing BIDS structured data.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     },
@@ -1015,8 +1016,9 @@
         "language": "Python",
         "generated_description": "This repository contains a Multiecho Preprocessing Pipeline project for processing multiecho fMRI data on C-PAC, providing steps for installation and usage.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
@@ -1073,7 +1075,7 @@
     },
     "childmindresearch/cmi-pandoc-server": {
       "readme_hash": "",
-      "last_updated": "2025-04-10 20:10:14 UTC",
+      "last_updated": "2026-02-09 00:04:54 UTC",
       "data": {
         "name": "cmi-pandoc-server",
         "url": "https://github.com/childmindresearch/cmi-pandoc-server",
@@ -1084,13 +1086,13 @@
         "generated_description": "This repository likely serves as a server application written in Rust for converting documents using Pandoc.",
         "categories": [
           "Rust Projects",
-          "Command Line Tools"
+          "Web Applications"
         ]
       }
     },
     "childmindresearch/cmi-ffmpeg-server": {
       "readme_hash": "",
-      "last_updated": "2025-04-10 20:10:15 UTC",
+      "last_updated": "2026-02-09 00:04:55 UTC",
       "data": {
         "name": "cmi-ffmpeg-server",
         "url": "https://github.com/childmindresearch/cmi-ffmpeg-server",
@@ -1101,7 +1103,7 @@
         "generated_description": "This repository likely contains a server application written in Rust that utilizes the FFmpeg multimedia framework for various media processing tasks.",
         "categories": [
           "Rust Projects",
-          "Data Processing Libraries"
+          "Data Processing"
         ]
       }
     },
@@ -1117,15 +1119,15 @@
         "language": "HTML",
         "generated_description": "MoBI_Docs is a repository containing materials for the Child Mind Institute's Multimodal Brain/Body Imaging (MoBI) Core, focusing on standardizing research methods and developing software pipelines for data analysis and quality control.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Web Development"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
         ]
       }
     },
     "childmindresearch/doc-bot": {
-      "readme_hash": "7f448410720d2105a7e8dc929f882513",
-      "last_updated": "2025-04-10 20:01:54 UTC",
+      "readme_hash": "7c38d33e8152f7d35ebb10449cd5ecd5",
+      "last_updated": "2026-02-09 00:04:59 UTC",
       "data": {
         "name": "doc-bot",
         "url": "https://github.com/childmindresearch/doc-bot",
@@ -1133,11 +1135,11 @@
         "description": "",
         "topics": [],
         "language": "Python",
-        "generated_description": "The \"doc-bot\" repository contains the software architecture and cloud deployment details for a chatbot system involving Open WebUI, LiteLLM, and a custom proxy server, with Azure File Storage for persistence. The deployment includes container apps, a virtual network, file storage, and key vault for secret management, with custom containers for LiteLLM and the proxy.",
+        "generated_description": "The \"doc-bot\" repository contains the software architecture and cloud deployment details for a chatbot system involving Open WebUI, LiteLLM, and a custom proxy server, with Azure and AWS integrations for storage and processing.",
         "categories": [
-          "Python Projects",
-          "Machine Learning",
-          "Web Development"
+          "Python Libraries",
+          "Web Applications",
+          "Data Processing"
         ]
       }
     },
@@ -1164,15 +1166,15 @@
       "data": {
         "name": "nifti-stream",
         "url": "https://github.com/childmindresearch/nifti-stream",
-        "stars": 4,
+        "stars": 7,
         "description": "",
         "topics": [],
         "language": "TypeScript",
         "generated_description": "nifti-stream is a streaming parser for NIFTI-1 and NIFTI-2 neuroimaging files, optimized for client-side processing and progressive loading in web applications.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Web Development"
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Web Applications"
         ]
       }
     },
@@ -1188,8 +1190,9 @@
         "language": "Python",
         "generated_description": "`mobi-motion-tracking` is a Python package designed for processing and analyzing 3D motion tracking data. It offers tools to compare skeletal data against a gold standard, calculate similarity metrics like DTW, and generate labeled output files for further analysis.",
         "categories": [
-          "Data Processing Libraries",
-          "Machine Learning"
+          "Data Processing",
+          "Python Libraries",
+          "Visualization Tools"
         ]
       }
     },
@@ -1205,8 +1208,8 @@
         "language": "Python",
         "generated_description": "This repository provides a template for Python projects, offering a structured setup process and guidelines for maintaining consistency. It includes instructions for initializing the repository, setting up code quality checks, and generating API documentation.",
         "categories": [
-          "Python Projects",
-          "GitHub Templates"
+          "Python Libraries",
+          "GitHub Tools"
         ]
       }
     },
@@ -1222,8 +1225,8 @@
         "language": null,
         "generated_description": "This repository automates the building, testing, and deployment process for components of the Clinician Toolkit (CTK) project using GitHub Actions.",
         "categories": [
-          "GitHub Templates",
-          "Clinical Toolkit"
+          "GitHub Tools",
+          "Python Libraries"
         ]
       }
     },
@@ -1239,7 +1242,7 @@
         "language": "HTML",
         "generated_description": "The \"blockbuster\" repository contains HTML code for a BlockBuster project.",
         "categories": [
-          "Web Development"
+          "Web Applications"
         ]
       }
     },
@@ -1255,8 +1258,9 @@
         "language": "TypeScript",
         "generated_description": "This repository is a web application that helps users search for resources used in the C-PAC software. It offers a user-friendly interface to browse and search through a comprehensive inventory of resources, with features like search functionality, dark mode, and direct links to specific lines in the GitHub repository.",
         "categories": [
-          "Web Development",
-          "Neuroimaging Tools"
+          "Web Applications",
+          "Data Processing",
+          "Neuroimaging Utilities"
         ]
       }
     },
@@ -1279,7 +1283,7 @@
     },
     "childmindresearch/tinyfeast": {
       "readme_hash": "",
-      "last_updated": "2025-04-10 20:11:02 UTC",
+      "last_updated": "2026-02-09 00:05:10 UTC",
       "data": {
         "name": "tinyfeast",
         "url": "https://github.com/childmindresearch/tinyfeast",
@@ -1287,10 +1291,10 @@
         "description": "",
         "topics": [],
         "language": "Python",
-        "generated_description": "This repository named \"tinyfeast\" likely contains Python code for a small project or tool, but without a README file, the specific functionality and purpose are unclear.",
+        "generated_description": "The \"tinyfeast\" repository is a Python project with no README file available.",
         "categories": [
-          "Python Projects",
-          "Command Line Tools"
+          "Python Libraries",
+          "Data Processing"
         ]
       }
     },
@@ -1300,14 +1304,15 @@
       "data": {
         "name": "yaspy",
         "url": "https://github.com/childmindresearch/yaspy",
-        "stars": 0,
+        "stars": 2,
         "description": "yet another neuroimaging surface plotting python library",
         "topics": [],
         "language": "Python",
         "generated_description": "yaspy is a Python library for creating neuroimaging surface plots, ranging from simple screenshots to complex montages and publication-ready figures. It leverages PyVista, Matplotlib, and Pillow for its functionality.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Visualization"
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
         ]
       }
     },
@@ -1323,14 +1328,14 @@
         "language": "Python",
         "generated_description": "This repository, tiny-mirror, provides functionality for generating concerning summaries using Python. It includes methods to obtain both final results and intermediate results for analyzing text entries.",
         "categories": [
-          "Data Processing Libraries",
-          "Machine Learning"
+          "Python Libraries",
+          "Data Processing"
         ]
       }
     },
     "childmindresearch/awesome-childmindresearch": {
-      "readme_hash": "0af3352a50420c38895cab94a5ca5e82",
-      "last_updated": "2025-04-10 20:11:05 UTC",
+      "readme_hash": "f6d23afe983e3c990e7bc3e81d8c0df4",
+      "last_updated": "2026-02-09 00:05:16 UTC",
       "data": {
         "name": "awesome-childmindresearch",
         "url": "https://github.com/childmindresearch/awesome-childmindresearch",
@@ -1338,30 +1343,494 @@
         "description": "",
         "topics": [],
         "language": null,
-        "generated_description": "This repository is a curated list of 181 active, non-fork public repositories from the Child Mind Institute \u2014 Research Teams organization, focusing on various research tools and projects related to data management, command line tools, data processing, visualization, machine learning, neuroimaging, Python libraries, Rust projects, and web applications.",
+        "generated_description": "This repository is a curated list of 77 active, non-fork public repositories from the Child Mind Institute \u2014 Research Teams organization, generated using OpenAI GPT for description and categorization.",
         "categories": [
-          "Neuroimaging Tools",
-          "Data Processing Libraries",
-          "Python Projects",
-          "Machine Learning",
-          "Rust Projects",
-          "Web Development"
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-View": {
+      "readme_hash": "879633858bb371033ea13140093fedb7",
+      "last_updated": "2026-02-09 00:04:53 UTC",
+      "data": {
+        "name": "MoBI-View",
+        "url": "https://github.com/childmindresearch/MoBI-View",
+        "stars": 3,
+        "description": "GUI for MoBI Data Collection",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "`MoBI-View` is a Python GUI application that provides real-time visualization of biosignal data from Lab Streaming Layer (LSL) streams, enabling researchers and clinicians to monitor and analyze various biosignals like EEG and physiological measurements through an intuitive interface.",
+        "categories": [
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/skarf": {
+      "readme_hash": "adb553e3caf92a07d34da820053d723c",
+      "last_updated": "2026-02-09 00:04:56 UTC",
+      "data": {
+        "name": "skarf",
+        "url": "https://github.com/childmindresearch/skarf",
+        "stars": 0,
+        "description": "skarf: scikit autoregressive models for functional connectivity",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "skarf is a Python package for regularized vector autoregressive (VAR) time series modeling, specifically designed for functional connectivity analyses of fMRI data using scikit-learn.",
+        "categories": [
+          "Python Libraries",
+          "Neuroimaging Utilities"
+        ]
+      }
+    },
+    "childmindresearch/hbn-ddp": {
+      "readme_hash": "d124701ee862d467448135baa12705bf",
+      "last_updated": "2026-02-09 00:05:01 UTC",
+      "data": {
+        "name": "hbn-ddp",
+        "url": "https://github.com/childmindresearch/hbn-ddp",
+        "stars": 2,
+        "description": "Preprocessing package for working with the HBN diagnostic data.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository provides a Python preprocessing package, hbn-ddp, designed for handling the Healthy Brain Network clinician consensus diagnostic data. It transforms the data into a more organized format for analysis, allowing filtering by diagnostic certainty or time of diagnosis and creating visualizations of the diagnostic data.",
+        "categories": [
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/MOBI_QC": {
+      "readme_hash": "9815b427f5d0dc62f5864d62f4aecbea",
+      "last_updated": "2026-02-09 00:05:05 UTC",
+      "data": {
+        "name": "MOBI_QC",
+        "url": "https://github.com/childmindresearch/MOBI_QC",
+        "stars": 1,
+        "description": "A repo containing code to assess the quality of mobi data",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "MOBI_QC is a Python quality control pipeline tailored for assessing multimodal datasets, including EEG, Eye-tracking, Physiological signals, Audio, and Video data. It automates preprocessing, computes detailed quality control metrics for each modality, and generates PDF reports for easy review and documentation.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries",
+          "Neuroimaging Utilities"
+        ]
+      }
+    },
+    "childmindresearch/hbn_correction": {
+      "readme_hash": "d0d3c1094443df2573b61011689dcf5a",
+      "last_updated": "2026-02-09 00:05:08 UTC",
+      "data": {
+        "name": "hbn_correction",
+        "url": "https://github.com/childmindresearch/hbn_correction",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository provides a Python package for correcting data from the Healthy Brain Network dataset. It offers functionality to perform data corrections and includes a notebook example for reference.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/graphomotor": {
+      "readme_hash": "54605d9e8f0afc0bc286d19ce8b737e7",
+      "last_updated": "2026-02-09 00:05:12 UTC",
+      "data": {
+        "name": "graphomotor",
+        "url": "https://github.com/childmindresearch/graphomotor",
+        "stars": 1,
+        "description": "A Python toolkit for analysis of graphomotor data collected via Curious",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "`graphomotor` is a Python toolkit designed for analyzing graphomotor data collected via Curious, offering feature extraction and visualization capabilities for tasks like spiral drawing, trails making, alphabetic writing, digit symbol substitution, and the Rey-Osterrieth Complex Figure Test.",
+        "categories": [
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/graphomotor_cmi": {
+      "readme_hash": "468ac80e20c8912b7ab286dbf46d26ab",
+      "last_updated": "2026-02-09 00:05:14 UTC",
+      "data": {
+        "name": "graphomotor_cmi",
+        "url": "https://github.com/childmindresearch/graphomotor_cmi",
+        "stars": 0,
+        "description": "Repo with scripts to run Graphomotor Protocol at Harlem Spring 2025",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository contains scripts to run the Graphomotor Protocol at the Child Mind Institute during the Summer of 2025. The main script, \"graphomotor_full.py,\" encompasses the entire protocol.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-AV": {
+      "readme_hash": "b3a1a0aab882acedefaf812c92eddb01",
+      "last_updated": "2026-02-09 00:05:17 UTC",
+      "data": {
+        "name": "MoBI-AV",
+        "url": "https://github.com/childmindresearch/MoBI-AV",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "MoBI-AV is a Python application for recording audio and video simultaneously, offering device selection and synchronization capabilities, including integration with Lab Streaming Layer (LSL) for time-synchronizing recordings with other experimental data sources.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries",
+          "Neuroimaging Utilities"
+        ]
+      }
+    },
+    "childmindresearch/parent-tech-survey": {
+      "readme_hash": "c86656a881688bdedef023c62cc93f7d",
+      "last_updated": "2026-02-09 00:05:18 UTC",
+      "data": {
+        "name": "parent-tech-survey",
+        "url": "https://github.com/childmindresearch/parent-tech-survey",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "HTML",
+        "generated_description": "This repository performs text analysis for the PPTOB Study.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/zed2i_3d_capture": {
+      "readme_hash": "34eb1f693be25088e0fb1f01a9db4cfd",
+      "last_updated": "2026-02-09 00:05:19 UTC",
+      "data": {
+        "name": "zed2i_3d_capture",
+        "url": "https://github.com/childmindresearch/zed2i_3d_capture",
+        "stars": 0,
+        "description": "A repository containing the necessary code to record motion tracking data from the ZED 2i with or without a sitmulus. ",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository provides the necessary Python code to record 3D motion tracking data from the ZED 2i stereo camera, enabling real-time body tracking and data collection with or without a live stimulus.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing",
+          "Visualization Tools"
+        ]
+      }
+    },
+    "childmindresearch/not-as-many-pipelines": {
+      "readme_hash": "b11fe7478289dcee98ccd0386ab71e41",
+      "last_updated": "2026-02-09 00:05:21 UTC",
+      "data": {
+        "name": "not-as-many-pipelines",
+        "url": "https://github.com/childmindresearch/not-as-many-pipelines",
+        "stars": 0,
+        "description": "diff checker for original gen192 configs vs. updated ones",
+        "topics": [],
+        "language": null,
+        "generated_description": "This repository provides a diff checker tool for comparing original gen192 configurations with updated ones.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/zed2i_3d_lsl_capture": {
+      "readme_hash": "04620e087eec517fb4f808b6d3b69835",
+      "last_updated": "2026-02-09 00:05:22 UTC",
+      "data": {
+        "name": "zed2i_3d_lsl_capture",
+        "url": "https://github.com/childmindresearch/zed2i_3d_lsl_capture",
+        "stars": 0,
+        "description": "This repository records 3D motion tracking data from the ZED 2i and streams via pylsl. The data is saved it in a format usable for the mobi_motion_tracking package.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository records 3D motion tracking data from the ZED 2i stereo camera and streams live markers to Lab Streaming Layer, saving the data in a format compatible with the mobi_motion_tracking package.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/noctsleepy": {
+      "readme_hash": "9c4c54adfacbc47f2a47312331cf801f",
+      "last_updated": "2026-02-09 00:05:23 UTC",
+      "data": {
+        "name": "noctsleepy",
+        "url": "https://github.com/childmindresearch/noctsleepy",
+        "stars": 1,
+        "description": "This package provides a set of pipeline and utilities to compute key metrics about sleep from already processed wrist-worn actigraphy data.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "`noctsleepy` is a Python package that computes comprehensive sleep metrics from processed actigraphy data, allowing users to analyze sleep duration, efficiency, wake after sleep onset, and more within customizable nocturnal windows while handling daylight saving time transitions.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing",
+          "Sleep Data Analysis"
+        ]
+      }
+    },
+    "childmindresearch/helios-render-kaggle": {
+      "readme_hash": "d6cf1b460f8e3dc1187c4d6714d44d4d",
+      "last_updated": "2026-02-09 00:05:25 UTC",
+      "data": {
+        "name": "helios-render-kaggle",
+        "url": "https://github.com/childmindresearch/helios-render-kaggle",
+        "stars": 14,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository, helios-render-kaggle, provides a tool for visualizing sensor data from the Helios device, specifically tailored for the CMI - Detect Behavior with Sensor Data competition on Kaggle. It allows users to render sequences from the dataset based on specified filters and generate video files for analysis.",
+        "categories": [
+          "Data Processing",
+          "Visualization Tools",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/zed2i_motion_classifier": {
+      "readme_hash": "3e1a51768c9de0525e9a9fc5b087ea50",
+      "last_updated": "2026-02-09 00:05:26 UTC",
+      "data": {
+        "name": "zed2i_motion_classifier",
+        "url": "https://github.com/childmindresearch/zed2i_motion_classifier",
+        "stars": 0,
+        "description": "This repository takes in live zed feed to perform movement classification on the target body and streams frame by frame classifications over lsl.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This Python repository, `zed2i_motion_classifier`, is designed for real-time movement classification using the ZED 2i stereo camera and streams frame-by-frame classifications over LSL (Lab Streaming Layer). It performs action, behavior, and position classification on a single person, streaming these classifications over LSL, and recording video to a .svo2 file.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-Markers": {
+      "readme_hash": "ea4da84d9bad371868b3287c1e3cb8f2",
+      "last_updated": "2026-02-09 00:05:28 UTC",
+      "data": {
+        "name": "MoBI-Markers",
+        "url": "https://github.com/childmindresearch/MoBI-Markers",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "A Python GUI application for sending LSL (Lab Streaming Layer) markers used in neuroscience research, featuring a clean interface, real-time marker sending, status logging, and cross-platform compatibility.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing",
+          "Neuroimaging Utilities"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-Neon-GUI": {
+      "readme_hash": "4e8bcb7cf4352759544e0f50fe1381fe",
+      "last_updated": "2026-02-09 00:05:29 UTC",
+      "data": {
+        "name": "MoBI-Neon-GUI",
+        "url": "https://github.com/childmindresearch/MoBI-Neon-GUI",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "MoBI-Neon-GUI is a Python GUI application for recording video from Pupil Labs Neon devices with synchronized LSL markers, offering real-time video preview, recording controls, configurable save directory, and customizable output filenames with timestamp support.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing",
+          "Visualization Tools"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-Physio-API": {
+      "readme_hash": "f1d9599b871be4fad1f2162eb521568f",
+      "last_updated": "2026-02-09 00:05:30 UTC",
+      "data": {
+        "name": "MoBI-Physio-API",
+        "url": "https://github.com/childmindresearch/MoBI-Physio-API",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "A Python API for PLUX biosignals devices with automatic sensor detection and Lab Streaming Layer (LSL) integration, supporting cross-platform usage and real-time data streaming.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing",
+          "Web Applications"
+        ]
+      }
+    },
+    "childmindresearch/helios_eval": {
+      "readme_hash": "c3e38dd2e4048738e0be2bc1a4a33981",
+      "last_updated": "2026-02-09 00:05:31 UTC",
+      "data": {
+        "name": "helios_eval",
+        "url": "https://github.com/childmindresearch/helios_eval",
+        "stars": 0,
+        "description": "Evaluation of the results of the Helios Kaggle competition",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository provides a tool for evaluating the results of the Helios Kaggle competition using Python.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing"
+        ]
+      }
+    },
+    "childmindresearch/neuromaps-prime": {
+      "readme_hash": "46c16c5010d1cdf9a73f87d2235e8234",
+      "last_updated": "2026-02-09 00:05:33 UTC",
+      "data": {
+        "name": "neuromaps-prime",
+        "url": "https://github.com/childmindresearch/neuromaps-prime",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "The `neuromaps-prime` repository provides a toolbox for integrating multiscale, multimodal annotations across non-human primate (NHP) brains, facilitating comprehensive comparative brain organization analyses. It extends the neuromaps ecosystem to offer unified access to various NHP brain datasets and specialized tools for NHP-specific analyses.",
+        "categories": [
+          "Data Processing",
+          "Neuroimaging Utilities",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/synthdata": {
+      "readme_hash": "a6b2defb8e3ea215e36758b08ec91128",
+      "last_updated": "2026-02-09 00:05:34 UTC",
+      "data": {
+        "name": "synthdata",
+        "url": "https://github.com/childmindresearch/synthdata",
+        "stars": 1,
+        "description": "Sandbox for synthetic data generation and evaluation",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository serves as a sandbox for generating and evaluating synthetic data using Python. It includes tools for data generation, evaluation, and parsing hierarchical structures from markdown documents.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/beacon": {
+      "readme_hash": "f1e45369717375ee2919f44d24dfa844",
+      "last_updated": "2026-02-09 00:05:35 UTC",
+      "data": {
+        "name": "beacon",
+        "url": "https://github.com/childmindresearch/beacon",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "TypeScript",
+        "generated_description": "This repository provides a streamlined way to build Svelte projects using the `sv` tool, offering commands for project creation, development server setup, and production build generation.",
+        "categories": [
+          "Web Applications",
+          "GitHub Tools"
+        ]
+      }
+    },
+    "childmindresearch/headhunter": {
+      "readme_hash": "abecf5e8da3bfec4dcde89a66651fbbb",
+      "last_updated": "2026-02-09 00:05:36 UTC",
+      "data": {
+        "name": "headhunter",
+        "url": "https://github.com/childmindresearch/headhunter",
+        "stars": 1,
+        "description": "A parser for extracting headings and hierarchical structure from Markdown files.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "headhunter is a Python parser that extracts headings and hierarchical structures from Markdown files, supporting various heading formats, fuzzy matching, batch processing, and export to different formats.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
+        ]
+      }
+    },
+    "childmindresearch/ctk-terraform": {
+      "readme_hash": "16e018365ce501e314c0722bc939c3dd",
+      "last_updated": "2026-02-09 00:05:37 UTC",
+      "data": {
+        "name": "ctk-terraform",
+        "url": "https://github.com/childmindresearch/ctk-terraform",
+        "stars": 0,
+        "description": "",
+        "topics": [],
+        "language": "HCL",
+        "generated_description": "This repository manages Azure infrastructure for the CTK project using Terraform, organizing it into shared, development, and production environments with a focus on deploying the shared infrastructure first before environment-specific resources.",
+        "categories": [
+          "Data Processing",
+          "GitHub Tools"
+        ]
+      }
+    },
+    "childmindresearch/ipyniivue-marimo-test": {
+      "readme_hash": "ae5cc92425636c0eab25d1e2050e29c8",
+      "last_updated": "2026-02-09 00:05:39 UTC",
+      "data": {
+        "name": "ipyniivue-marimo-test",
+        "url": "https://github.com/childmindresearch/ipyniivue-marimo-test",
+        "stars": 1,
+        "description": "",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository provides a demo for using ipyniivue marimo, allowing users to open a notebook in edit mode and export it as a WASM+HTML website.",
+        "categories": [
+          "Python Libraries",
+          "Web Applications"
+        ]
+      }
+    },
+    "childmindresearch/MoBI-Curious-LSL-Relay": {
+      "readme_hash": "66f67b63337b876fb63870f73ceeb30a",
+      "last_updated": "2026-02-09 00:05:40 UTC",
+      "data": {
+        "name": "MoBI-Curious-LSL-Relay",
+        "url": "https://github.com/childmindresearch/MoBI-Curious-LSL-Relay",
+        "stars": 0,
+        "description": "LSL Relay for Curious app, for MoBI",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This repository, MoBI-Curious-LSL-Relay, is a Python script that serves as an LSL Relay for the Curious app in the context of MoBI. It simplifies the setup process by handling dependencies automatically without the need for manual virtual environment creation or separate package installations.",
+        "categories": [
+          "Python Libraries",
+          "Data Processing"
+        ]
+      }
+    },
+    "childmindresearch/anonymize-pii": {
+      "readme_hash": "bad7d27415a9a0e431446a100024284c",
+      "last_updated": "2026-02-09 00:05:41 UTC",
+      "data": {
+        "name": "anonymize-pii",
+        "url": "https://github.com/childmindresearch/anonymize-pii",
+        "stars": 0,
+        "description": "Text based PII anonymizer for masking sensitive data.",
+        "topics": [],
+        "language": "Python",
+        "generated_description": "This Python repository provides a text-based PII anonymizer tool that flags and anonymizes sensitive data in reports using NLP techniques and Presidio Analyzer. It offers features like entity flagging, iterative anonymization, and supports multiple model configurations.",
+        "categories": [
+          "Data Processing",
+          "Python Libraries"
         ]
       }
     }
   },
-  "last_updated": "2025-04-10 20:11:06 UTC",
+  "last_updated": "2026-02-09 00:05:42 UTC",
   "categories": [
-    "Neuroimaging Tools",
-    "Data Processing Libraries",
-    "Python Projects",
-    "Web Development",
-    "Command Line Tools",
-    "Data Visualization",
-    "Machine Learning",
-    "GitHub Templates",
+    "Data Processing",
+    "Visualization Tools",
+    "Neuroimaging Utilities",
+    "Python Libraries",
+    "Web Applications",
+    "GitHub Tools",
     "Rust Projects",
-    "Clinical Toolkit",
-    "EEG Analysis"
+    "Sleep Data Analysis"
   ]
 }
